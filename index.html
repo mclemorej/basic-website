@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Basic Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+  <style>
+    /* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Images, just for this example */
+.img {
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Basic Website by <em>Saheli Basu</em></h1>
+  <p>A Webpage demo .</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="#" class="right">Other links</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Section</h2>
+    <h5>Photo:</h5>
+    <div style="height:200px;"><img src="pics/basic-website.png" style="height:200px;"></div>
+    <p>Logo for basic website</p>
+    
+  </div>
+  
+  <div class="main">
+    <h2>Wireframe</h2>
+    <h5>Webpage layout,10-03-2021</h5>
+    <div style="height:200px;"><img src="pics/template-design.png" style="height:200px;"></div>
+    <p>2 types of look for webpages</p>
+    <br>
+    <h2>Same Wireframe</h2>
+    <h5>Webpage layout,10-03-2021</h5>
+    <div style="height:200px;"><img src="pics/template-design.png" style="height:200px;"></div>
+    <p>2 types of look for webpages</p>
+
+    
+  </div>
+</div>
+
+<div class="footer">
+  <p>ÃÂ© Created by <a href="contact.html" target="_blank">Saheli Basu</a>
+  </p>
+</div>
+
+</body>
+</html>
